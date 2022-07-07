@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login_box {
+    width: 25rem;
+    background-color: #363a3a27;
+    border-radius: 1rem;
+    opacity: 0.6;
+    box-shadow: 3px 3px 70px 10px #4bcccc28, inset 1px 2px 2px 2px #4bcccc11;
+
+}
+
+input {
+    background-color: #435253;
+    color: #aaccd5;
+    border: none;
+    border-radius: .3rem;
+    height: 2rem;
+    font-size: 26px;
+    display: flex;
+    text-align: center;
+}
+
+.usuario {
+    padding-bottom: 2rem;
+    padding-left: 2.5rem;
+    opacity: 0.8;
+}
+
+.usuario:hover {
+    opacity: 1.0;
+}
+
+.senha {
+    padding-bottom: 2rem;
+    padding-left: 2.5rem;
+    opacity: 0.8;
+}
+
+.senha:hover {
+    opacity: 1.0;
+}
+
+.email {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 2.5rem;
+    opacity: 0.8;
+}
+
+.email:hover {
+    opacity: 1.0;
+}
+
+
+#submit_box {
+    padding-left: 7.5rem;
+    padding-bottom: 2rem;
+}
+
+#submit {
+    width: 10rem;
+    height: 2rem;
+    border: none;
+    padding-left: 3rem;
+    opacity: 0.8;
+}
+
+#submit:hover {
+    color: #aaccd5cc;
+    cursor: pointer;
+    opacity: 1.0;
+}
+
+h1 {
+    color: #759594;
+    padding: 2rem;
+    opacity: 1.0;
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: #aaccd586;
+    font-weight: 600;
+}
+
+#voltar {
+    padding: 0.5rem;
+    background-color: black;
+    width: 15rem;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+
+
+/* .color1 {color: #000000;} = background
+.color2 {color: #131a1c;} = background da div do form
+.color3 {color: #435253;} background do form
+.color4 {color: #759594;} letras maiores destacadas
+.color5 {color: #aaccd5;} respostas no form */
